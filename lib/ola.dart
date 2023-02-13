@@ -9,8 +9,14 @@ class ola extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
 appBar: AppBar(),
+body:Center( child:Container(
+color: Colors.cyan,
+width: 200,
+height: 200,
+child: Text("wano"),
 
+),
 
-    );
+    ));
   }
 }
