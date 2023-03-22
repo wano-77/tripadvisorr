@@ -34,7 +34,20 @@ body: SafeArea(
   ),
   
   ),
-
+bottomNavigationBar: BottomNavigationBar(items: [
+  BottomNavigationBarItem(icon: Icon(Icons.home,color: icon),
+  label: ''
+  ),
+  BottomNavigationBarItem(icon: Icon(Icons.explore,color: icon),
+  label: ''
+  ),
+  BottomNavigationBarItem(icon: Icon(Icons.book_online,color: icon),
+  label: ''
+  ),
+  BottomNavigationBarItem(icon: Icon(Icons.person,color: icon),
+  label: ''
+  ),
+]),
     );
   }
 }
