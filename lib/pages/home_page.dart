@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tripadvisor/components/heading.dart';
+import 'package:tripadvisor/components/label_section.dart';
 import 'package:tripadvisor/components/search.dart';
 import 'package:tripadvisor/utils/styles.dart';
 
@@ -18,6 +19,9 @@ body: SafeArea(
            const HeadingSection(),
            SizedBox(height: medium),
            const SearchSection(),
+           SizedBox(height: medium),
+           LabelSection(texto: 'Recommended',style: heading1,),
+
       ],
     ),
   ),
