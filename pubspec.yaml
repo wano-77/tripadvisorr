@@ -64,6 +64,11 @@ flutter:
   assets:
    - assets/profile.png
    - assets/profile1.jpg
+   - assets/duhok.jpg
+   - assets/duhok1.png
+   - assets/duhokGali.jpg
+   - assets/arbil.jpeg
+   - assets/amadiya.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

@@ -34,7 +34,7 @@ TextStyle pPrice = GoogleFonts.poppins(
     fontSize: 16, fontWeight: FontWeight.w600, color: white);
 
 TextStyle pLocation = GoogleFonts.poppins(
-    fontSize: 10, fontWeight: FontWeight.w400, color: white);
+    fontSize: 30, fontWeight: FontWeight.w400, color: white);
 
 // Gap
 var medium = 30.0;
