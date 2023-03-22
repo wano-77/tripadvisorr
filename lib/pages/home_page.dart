@@ -3,6 +3,7 @@ import 'package:tripadvisor/components/heading.dart';
 import 'package:tripadvisor/components/label_section.dart';
 import 'package:tripadvisor/components/recommended.dart';
 import 'package:tripadvisor/components/search.dart';
+import 'package:tripadvisor/components/top.dart';
 import 'package:tripadvisor/utils/styles.dart';
 
 class HomePage extends StatelessWidget {
@@ -26,6 +27,8 @@ body: SafeArea(
            const Recommended(),
            SizedBox(height: medium),
            LabelSection(texto: 'Top Desination', style: heading2),
+           SizedBox(height: medium),
+           const Top(),
       ],
     ),
   ),
